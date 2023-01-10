@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-login-page/static/css/main.f1619d49.css",
-    "main.js": "/react-login-page/static/js/main.e9f7096f.js",
+    "main.css": "/react-login-page/static/css/main.11e4e756.css",
+    "main.js": "/react-login-page/static/js/main.c92b2622.js",
     "static/js/787.8a207363.chunk.js": "/react-login-page/static/js/787.8a207363.chunk.js",
     "static/media/home-page.jpg": "/react-login-page/static/media/home-page.3a9d58e8a83ea63d5689.jpg",
     "index.html": "/react-login-page/index.html",
-    "main.f1619d49.css.map": "/react-login-page/static/css/main.f1619d49.css.map",
-    "main.e9f7096f.js.map": "/react-login-page/static/js/main.e9f7096f.js.map",
+    "main.11e4e756.css.map": "/react-login-page/static/css/main.11e4e756.css.map",
+    "main.c92b2622.js.map": "/react-login-page/static/js/main.c92b2622.js.map",
     "787.8a207363.chunk.js.map": "/react-login-page/static/js/787.8a207363.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1619d49.css",
-    "static/js/main.e9f7096f.js"
+    "static/css/main.11e4e756.css",
+    "static/js/main.c92b2622.js"
   ]
 }
