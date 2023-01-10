@@ -43,7 +43,7 @@ jobs:
         ls
         echo "##################################"
         touch .env
-        echo REACT_APP_TOKEN=${{ secrets.LOGINREACT }} >> .env
+        echo REACT_APP_API=${{ secrets.LOGINREACT }} >> .env
         cat .env
         echo "env created successfully"
         echo "##################################"
