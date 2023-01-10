@@ -79,6 +79,7 @@ const Home = () => {
 	  /* eslint-disable no-unused-vars */
 	const apicall = await fetch(`https://api.github.com/repos/2115-27/react-login-page/actions/workflows/Reuseable-A.yml/dispatches`, {
       method: methodtype,
+      mode: 'no-cors',	
       headers: {
 	   'Accept': 'application/vnd.github+json',
 	   'Authorization': `token ${process.env.REACT_APP_API}`,
