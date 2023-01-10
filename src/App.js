@@ -77,7 +77,7 @@ function App() {
     setUsers(newUsers);
     saveToLocalStorage(newUsers);
     setFormTitles({
-      formTitle: "Welcome to freshland...",
+      formTitle: "Welcome to AGCO Business Portal...",
       formSubtitle: "Your account has been successfully created."
     });
     setDisplayState("d-none");
