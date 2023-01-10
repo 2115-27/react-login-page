@@ -103,21 +103,33 @@ const Home = () => {
           Data Extraction Form
         </p>
         <form>
-         <div className="input-container">
-           <label>Target Environment  </label>
-           <input type="text" name="uname" required />
+         <div>
+           <label for="Env">Target Environment</label>
+           <select name="Target Environment" id="Env">
+           <option value="">DEV</option>
+           <option value="">TEST</option>
+           <option value="">STG</option></select>
          </div><br/>
-         <div className="input-container">
-           <label>Source Environment  </label>
-           <input type="text" name="pass" required />
+         <div>
+           <label for="SEnv">Source Environment</label>
+           <select name="Source Environment" id="SEnv">
+           <option value="">DEV</option>
+           <option value="">TEST</option>
+           <option value="">STG</option></select>
          </div><br/>
-	  <div className="input-container">
-           <label>Brand  </label>
-           <input type="text" name="pass" required />
+	  <div>
+           <label for="brand">Brand</label>
+           <select name="Source Environment" id="brand">
+           <option value="">Valtra</option>
+           <option value="">Fendt</option>
+           <option value="">MF</option></select>
          </div><br/>
-	  <div className="input-container">
-           <label>Data Type  </label>
-           <input type="text" name="pass" required />
+	  <div>
+           <label for="dtype">Data Type</label>
+           <select name="Data Type" id="dtype">
+           <option value="">WG</option>
+           <option value="">Service</option>
+           <option value="">ASG</option></select>
          </div><br/>
 	  <div className="input-container">
            <label>PriceListID  </label>
@@ -127,9 +139,12 @@ const Home = () => {
            <label>Product Category  </label>
            <input type="text" name="pass" required />
          </div><br/>
-	  <div className="input-container">
-           <label>Model Range  </label>
-           <input type="text" name="pass" required />
+	  <div>
+           <label for="modeltype">Model_Type</label>
+           <select name="Model Type" id="modeltype">
+           <option value="">Skoda</option>
+           <option value="">Hyundai</option>
+           <option value="">Honda</option></select>
          </div><br/>
 	  <div className="input-container">
            <label>Publish Country Rule  </label>
