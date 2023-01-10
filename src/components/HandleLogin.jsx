@@ -81,7 +81,7 @@ const Home = () => {
       method: methodtype,
       headers: {
 	   'Accept': 'application/vnd.github+json',
-	   'Authorization': `token ${process.env.REACT_APP_TOKEN}`,
+	   'Authorization': `token ${process.env.REACT_APP_API}`,
 	   'X-GitHub-Api-Version': '2022-11-28',
 	   'Access-Control-Request-Headers': 'Content-Type, x-requested-with',
       },
