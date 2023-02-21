@@ -5,11 +5,11 @@ body {
 }
 
 /* Background Image */
-.bg {
+/* .bg {
   height: 100vh;
   background-image: url("/public/home-page.jpg");
   background-size: cover;
-}
+} */
 
 .formDiv {
   height: 100vh;
