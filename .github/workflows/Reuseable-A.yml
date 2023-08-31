@@ -8,5 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: ls -lrta
+      - run: |
+          pwd
+          ls -lrta
       - run: echo "Hello world"
