@@ -12,7 +12,7 @@ jobs:
     - name: Test commands
       run: |
          echo Check CPU utilization
-         top  
+         vmstat 1 5  
 
          echo Check memory utilization
          free -h  
