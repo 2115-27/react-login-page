@@ -15,10 +15,10 @@ jobs:
          mpstat 1 1  
 
          echo Check memory utilization
-         free | awk '/Mem/ 
+         free 
         
          echo Check filesystem utilization
-         df --output=pcent / | tail -1 |
+         df --output=pcent / | tail -1 
 
          echo "CPU Utilization: $(mpstat 1 1 | awk '/Average/ {print 100 - $12}')%"
          echo "Memory Utilization: $(free | awk '/Mem/ {print $3/$2 * 100.0}')%"
