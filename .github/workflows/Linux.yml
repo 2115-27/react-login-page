@@ -11,14 +11,14 @@ jobs:
     steps:
     - name: Test commands
       run: |
-         # echo Check CPU utilization
-         # vmstat 1 5  
+         echo Check CPU utilization
+         mpstat 1 1  
 
-         # echo Check memory utilization
-         # free -h  
+         echo Check memory utilization
+         free | awk '/Mem/ 
         
-         # echo Check filesystem utilization
-         # df -h
+         echo Check filesystem utilization
+         df --output=pcent / | tail -1 |
 
          echo "CPU Utilization: $(mpstat 1 1 | awk '/Average/ {print 100 - $12}')%"
          echo "Memory Utilization: $(free | awk '/Mem/ {print $3/$2 * 100.0}')%"
