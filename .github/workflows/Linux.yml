@@ -1,0 +1,23 @@
+name: LinuxCommandTest
+
+on:
+  workflow_dispatch:
+   
+jobs:
+  TestCommands:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Test commands
+      run: |
+         echo Check CPU utilization
+         top  
+
+         echo Check memory utilization
+         free -h  
+        
+         echo Check filesystem utilization
+         df -h
+
+         
